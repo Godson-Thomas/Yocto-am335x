@@ -114,4 +114,4 @@ Change _lzop_ to _lzip_
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="800">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="700">  <br><br>
