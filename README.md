@@ -117,7 +117,7 @@ Change _lzop_ to _lzip_
 <img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="700">  <br><br>
 
 
-*After building, the _image files_ can be found in 
+* After building, the _image files_ can be found in 
 ```
 cd tmp/deploy/images/am335x-evm
 
