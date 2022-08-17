@@ -1,4 +1,4 @@
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/am335x.PNG" width="700">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/am335x.PNG" width="500">  <br><br>
 
 
 _Make sure your Build Host meets the following requirements:_
