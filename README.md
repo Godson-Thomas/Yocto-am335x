@@ -1,4 +1,4 @@
-<img src="https://github.com/Godson-Thomas/Toolchain/blob/master/am335x.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Toolchain/blob/master/am335x.PNG" width="600">  <br><br>
 
 
 _Make sure your Build Host meets the following requirements:_
@@ -6,7 +6,7 @@ _Make sure your Build Host meets the following requirements:_
 
 
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/SYSreq.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/SYSreq.PNG" width="600">  <br><br>
 
 
 ## _Install essential host packages on the host machine_
@@ -65,7 +65,7 @@ gedit bblayers.conf
 ```
 * Include the path of the BSP(Board Support Package) as shown.<br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/bblayers.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/bblayers.PNG" width="600">  <br><br>
 
 
 
@@ -78,7 +78,7 @@ The MACHINE variable in the _local.conf_ file specifies the machine for the buil
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/local.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/local.PNG" width="600">  <br><br>
 
 
 ## _Start the Build_
@@ -97,7 +97,7 @@ bitbake core-image-minimal
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/error1.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/error1.PNG" width="600">  <br><br>
 
 - * **Solution**
 
@@ -114,4 +114,4 @@ Change _lzop_ to _lzip_
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="200">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="600">  <br><br>
