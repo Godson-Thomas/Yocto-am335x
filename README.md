@@ -6,7 +6,7 @@ _Make sure your Build Host meets the following requirements:_
 
 
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/SYSreq.PNG" width="600">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/SYSreq.PNG" width="800">  <br><br>
 
 
 ## _Install essential host packages on the host machine_
@@ -97,7 +97,7 @@ bitbake core-image-minimal
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/error1.PNG" width="600">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/error1.PNG" width="800">  <br><br>
 
 - * **Solution**
 
@@ -114,4 +114,4 @@ Change _lzop_ to _lzip_
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="600">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/lzopsolved.PNG" width="800">  <br><br>
