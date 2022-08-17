@@ -1,4 +1,4 @@
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/Sitara.PNG" width="300">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/SitaraP.PNG" width="300">  <br><br>
 
 
 _Make sure your Build Host meets the following requirements:_
