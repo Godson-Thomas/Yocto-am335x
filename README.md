@@ -139,7 +139,10 @@ fitimage+rootfs --> ubi image (config.ini+ubinize.sh)
 
 - _Note_: Use the following command to clean/delete the generated output _images_ without effecting the intermediate steps.
 ```
-
 bitbake -c cleanall core-image-minimal
 ```
 
+- _Note_: Use the following command to recompile the generated kernel with the original kernel source.
+```
+bitbake -C compile virtual/kernel
+```
