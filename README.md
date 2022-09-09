@@ -152,7 +152,7 @@ bitbake -C compile virtual/kernel
 ## _Compiling external Kernel Source using_ _arm-poky-linux-gnueabi-_
 
 ```
-1. 	export CROSS_COMPILE=/media/godsonthomas/Disk-2/poky/build/tmp/work/am335x_evm-poky-linux-gnueabi/linux-ti-staging/5.10.109+gitAUTOINC+9cff62efac-r22b/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
+1. export CROSS_COMPILE=/media/godsonthomas/Disk-2/poky/build/tmp/work/am335x_evm-poky-linux-gnueabi/linux-ti-staging/5.10.109+gitAUTOINC+9cff62efac-r22b/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
 
 2. export ARCH=arm
 
@@ -164,7 +164,7 @@ bitbake -C compile virtual/kernel
 Error: 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/yylloc.png" width="600">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/yylloc.png" width="800">  <br><br>
 
 Solution:
 
