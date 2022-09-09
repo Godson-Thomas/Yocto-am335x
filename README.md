@@ -146,3 +146,31 @@ bitbake -c cleanall core-image-minimal
 ```
 bitbake -C compile virtual/kernel
 ```
+
+-----
+
+## _Compiling external Kernel Source using_ _arm-poky-linux-gnueabi-_
+
+```
+1. 	export CROSS_COMPILE=/media/godsonthomas/Disk-2/poky/build/tmp/work/am335x_evm-poky-linux-gnueabi/linux-ti-staging/5.10.109+gitAUTOINC+9cff62efac-r22b/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
+
+2. export ARCH=arm
+
+3. make menuconfig
+
+4. make zImage
+```
+
+Error: 
+<br><br>
+
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/yylloc.png" width="600">  <br><br>
+
+Solution:
+
+edit the file _./linux-rtk/scripts/dtc/dtc-lexer-lex.c
+Find the line 'YYLTYPE yylloc' and change it to 'extern YYLTYPE yylloc'_
+
+<br><br>
+
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/yylloc_solved.png" width="600">  <br><br>
