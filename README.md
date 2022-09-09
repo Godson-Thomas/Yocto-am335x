@@ -151,15 +151,23 @@ bitbake -C compile virtual/kernel
 
 ## _Compiling external Kernel Source using_ _arm-poky-linux-gnueabi-_
 
+- go to the linux kernel source directory
+
 ```
-1. export CROSS_COMPILE=/media/godsonthomas/Disk-2/poky/build/tmp/work/am335x_evm-poky-linux-gnueabi/linux-ti-staging/5.10.109+gitAUTOINC+9cff62efac-r22b/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
+1. make distclean
 
-2. export ARCH=arm
+2. export CROSS_COMPILE=/media/godsonthomas/Disk-2/poky/build/tmp/work/am335x_evm-poky-linux-gnueabi/linux-ti-staging/5.10.109+gitAUTOINC+9cff62efac-r22b/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
 
-3. make menuconfig
+3. export ARCH=arm
 
-4. make zImage
+4. make menuconfig
+
+5. make zImage
 ```
+
+The generated kernel can be found in:
+
+_arch/arm/boot/zImage_
 
 Error: 
 <br><br>
