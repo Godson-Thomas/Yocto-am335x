@@ -174,3 +174,5 @@ Find the line 'YYLTYPE yylloc' and change it to 'extern YYLTYPE yylloc'_
 <br><br>
 
 <img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/yylloc_solved.png" width="600">  <br><br>
+
+-------------------
