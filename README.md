@@ -210,6 +210,8 @@ Change the file as shown:
 make dtbs
 ```
 
+```
+```
 
 ### Converting .dtb to .dts
 
@@ -220,5 +222,9 @@ dtc -I dtb "/pns/sdm_a/zzz.dtb" >/tmp/zzz.dts
 ### Converting .dts to .dtb
 ```
 dtc -I dts "/tmp/zzz.dts" >/pns/sdm_a/zzz.dtb
+```
+
+
+```
 ```
 -------------------
