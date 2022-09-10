@@ -200,6 +200,6 @@ Change the file as shown:
 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/cert_solved.png" width="600">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/certi_solved.png" width="600">  <br><br>
 
 -------------------
