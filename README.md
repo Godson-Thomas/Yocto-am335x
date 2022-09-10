@@ -151,7 +151,7 @@ bitbake -C compile virtual/kernel
 
 ## _Compiling external Kernel Source using_ _arm-poky-linux-gnueabi-_
 
-- go to the linux kernel source directory
+- **go to the linux kernel source directory**
 
 ```
 1. make distclean
@@ -202,4 +202,11 @@ Change the file as shown:
 
 <img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/certi_solved.png" width="600">  <br><br>
 
+
+
+### _Creating the dtb file for generating fit image_
+
+```
+make dtbs
+```
 -------------------
