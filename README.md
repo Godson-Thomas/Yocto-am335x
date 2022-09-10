@@ -227,4 +227,10 @@ dtc -I dts "/tmp/zzz.dts" >/pns/sdm_a/zzz.dtb
 
 ```
 ```
+
+
+
+<br><br>
+
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/exp.png" width="600">  <br><br>
 -------------------
