@@ -151,7 +151,7 @@ bitbake -C compile virtual/kernel
 **Error:**
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/e_kc.png" width="800">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/e_kc.png" width="1000">  <br><br>
 
 **Solution:**
 ```
