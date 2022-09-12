@@ -147,6 +147,22 @@ bitbake -c cleanall core-image-minimal
 bitbake -C compile virtual/kernel
 ```
 
+
+**Error:**
+<br><br>
+
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/e_kc.png" width="800">  <br><br>
+
+**Solution:**
+```
+cd /media/godsonthomas/Disk-2/poky/build/tmp/work-shared/am335x-evm/kernel-source
+```
+```
+make mrproper
+```
+```
+bitbake -C compile virtual/kernel
+```
 -----
 
 ## _Compiling external Kernel Source using_ _arm-poky-linux-gnueabi-_
