@@ -218,7 +218,9 @@ Change the file as shown:
 
 <img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/certi_solved.png" width="600">  <br><br>
 
-
+```
+scripts/config --disable SYSTEM_REVOCATION_KEYS
+```
 
 ### _Creating the dtb file for generating fit image_
 
