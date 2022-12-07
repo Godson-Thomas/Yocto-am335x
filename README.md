@@ -228,11 +228,11 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS
 Error: 
 <br><br>
 
-<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/certificate.png" width="800">  <br><br>
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/secclass_map.png" width="800">  <br><br>
 
 Solution:
 
-
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/soln.PNG" width="600">  <br><br>
 
 
 
