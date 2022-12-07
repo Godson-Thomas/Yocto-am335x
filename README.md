@@ -222,6 +222,20 @@ Change the file as shown:
 scripts/config --disable SYSTEM_REVOCATION_KEYS
 ```
 
+
+
+
+Error: 
+<br><br>
+
+<img src="https://github.com/Godson-Thomas/Yocto-am335x/blob/master/certificate.png" width="800">  <br><br>
+
+Solution:
+
+
+
+
+
 ### _Creating the dtb file for generating fit image_
 
 ```
